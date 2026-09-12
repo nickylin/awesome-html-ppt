@@ -4,6 +4,8 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Stars refreshed](https://img.shields.io/badge/stars-2026--09--12-111111.svg)](data/skills.json)
 
+[中文](README.md) · [English](README.en.md)
+
 精选 **HTML 幻灯片 Agent Skills**。给 Cursor / Claude Code / Codex 用：装一个 skill，让模型按设计系统出片，而不是从空白 HTML 瞎编。
 
 **[Browse the gallery →](https://nickylin.github.io/awesome-html-ppt/)** · English names kept as-is · 星标来自 GitHub API（2026-09-12）

@@ -7,7 +7,7 @@ A curated list of **HTML slide / PPT agent skills** for Cursor, Claude Code, and
 Stars refreshed from the GitHub API on **2026-09-12**. Star rank is a discovery signal, not a quality ranking for your use case.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Skills](https://img.shields.io/badge/skills-23-111111)
+![Skills](https://img.shields.io/badge/skills-22-111111)
 
 **[Visual catalog](https://nickylin.github.io/awesome-html-ppt/)**
 
