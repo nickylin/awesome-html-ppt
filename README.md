@@ -6,9 +6,11 @@
 
 [中文](README.md) · [English](README.en.md)
 
-精选 **HTML 幻灯片 Agent Skills**。给 Cursor / Claude Code / Codex 用：装一个 skill，让模型按设计系统出片，而不是从空白 HTML 瞎编。
+持续收集全网**做得最好的 HTML 幻灯片 / PPT Agent Skills 与相关仓库**，按上台场景整理，给 Cursor / Claude Code / Codex 用：装一个 skill，让模型按设计系统出片，而不是从空白 HTML 瞎编。
 
-**[Browse the gallery →](https://nickylin.github.io/awesome-html-ppt/)** · English names kept as-is · 星标来自 GitHub API（2026-09-12）
+本列表会跟着生态更新——新出现的高质量 skill、模板库、幻灯片框架都会评估后收录。**欢迎投稿**（别人的仓库、你自己写的都算）。
+
+**[Browse the gallery →](https://nickylin.github.io/awesome-html-ppt/)** · **[投稿 / Submit](https://github.com/nickylin/awesome-html-ppt/issues/new?template=submit-skill.yml)** · 星标来自 GitHub API（2026-09-12）
 
 > 不要只看星标。2.4 万的「杂志风」和 8 千的「演讲者模式」解决的是不同的上台问题。
 
@@ -177,9 +179,17 @@ python3 scripts/refresh-stars.py
 | [likaku/Mck-ppt-design-skill](https://github.com/likaku/Mck-ppt-design-skill) | 274 | 麦肯锡风 python-pptx，源格式不是 HTML |
 | [ToseaAI/awesome-html-slide-skills](https://github.com/ToseaAI/awesome-html-slide-skills) | 146 | 更早的公开目录。本列表按使用场景重排 |
 
-## Contributing
+## 持续收录 · 欢迎投稿
 
-见 [CONTRIBUTING.md](CONTRIBUTING.md)。条目必须是公开、HTML 优先、有真实 skill 文件。
+这个仓库不是一次性榜单，而是一份会持续维护的目录：全网扫公开的 HTML PPT skill / 模板 / 框架，按「适不适合上台、是否 HTML 优先、有没有真实 `SKILL.md`」筛选后再写进列表和图鉴。
+
+你可以用下面任一方式投稿：
+
+1. **[提交 Issue（投稿模板）](https://github.com/nickylin/awesome-html-ppt/issues/new?template=submit-skill.yml)** — 最快
+2. 打开 Pull Request，同时改 [README.md](README.md) 和 [`data/skills.json`](data/skills.json)
+3. 细则见 [CONTRIBUTING.md](CONTRIBUTING.md)
+
+自己做的 skill、看到别人做得好的仓库，都可以提。不一定要高星；场景独特（教学、企业模板、可编辑、HTML→PPTX）同样欢迎。
 
 ## License
 

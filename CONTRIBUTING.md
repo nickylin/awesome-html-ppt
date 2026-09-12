@@ -1,25 +1,32 @@
 # Contributing
 
-PRs welcome. This list stays **HTML-first** and **agent-usable**.
+本仓库**持续收录**全网公开的 HTML 幻灯片 / PPT Agent Skills、模板库和相关框架，也**支持投稿**。别人的仓库、你自己写的都可以。
 
-## Add a skill
+This list is collected ongoing. Submit other people's repos or your own.
 
-Open an issue or PR with:
+## 怎么投稿
 
-1. Public GitHub URL
-2. License (MIT / Apache / AGPL / etc.)
-3. One-line: what it outputs (single-file HTML, React framework, PPTX, …)
-4. Why it is not a duplicate of an existing entry
-5. A preview: prefer dropping a 16:9 still into `previews/<id>.png` (copied from the project's own README/demo). Hot-linking GitHub `user-attachments` often breaks on Pages.
+任选一种：
 
-## Rules
+1. **Issue（推荐）** — 用投稿模板：[Submit a skill](https://github.com/nickylin/awesome-html-ppt/issues/new?template=submit-skill.yml)
+2. **Pull Request** — 同一 PR 里改 [README.md](README.md) 和 [`data/skills.json`](data/skills.json)；有静帧的话放到 `previews/<id>.png`
 
-- Must contain a real `SKILL.md` (or a template directory / slide framework), not just a README.
-- HTML should be the source of truth, **or** the project is a widely-used PPTX sibling that people searching “HTML PPT skill” will hit (mark `html_first: false` in `data/skills.json`).
-- Write original descriptions. Do not paste another awesome-list's copy.
-- Update `data/skills.json` in the same PR as the README.
-- Star counts are refreshed with `./scripts/refresh-stars.sh`. Don't hand-edit stars unless the API is wrong.
+请写清：
+
+1. 公开 GitHub URL
+2. 许可证（MIT / Apache / AGPL / 等）
+3. 产出是什么（单文件 HTML、React 框架、PPTX、模板库…）
+4. 和现有条目的差异（解决什么上台问题）
+5. 预览：优先从该项目自己的 README / demo 截一张 16:9 放到 `previews/<id>.png`。GitHub `user-attachments` 热链在 Pages 上经常挂。
+
+## 收录标准
+
+- 必须有真实的 `SKILL.md`（或模板目录 / 幻灯片框架），不能只有广告 README。
+- **HTML 优先**；若是被搜「HTML PPT skill」时总会撞上的 PPTX 兄弟项目，可进 Related，并在 json 里标 `html_first: false`。
+- 条目描述自己写，不要整段复制别的 awesome list。
+- 星标用 `./scripts/refresh-stars.sh` 刷新，不要手改（API 错了除外）。
+- 不要求高星。教学、企业模板、可编辑、HTML→PPTX 等独特场景同样收录。
 
 ## After merge
 
-Maintainers may tweak wording for length and scanability. Previews stay hot-linked to the upstream repo so authors keep control.
+Maintainers may shorten copy for scanability. Preview images stay attributed to the upstream project.

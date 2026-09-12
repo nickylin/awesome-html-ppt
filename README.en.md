@@ -2,7 +2,11 @@
 
 [中文](README.md) · English
 
-A curated list of **HTML slide / PPT agent skills** for Cursor, Claude Code, and Codex. Most of them turn a prompt or outline into a zero-build, keyboard-navigable HTML deck.
+A living catalog of the **best HTML slide / PPT agent skills and related repos** we can find — for Cursor, Claude Code, and Codex. Most of them turn a prompt or outline into a zero-build, keyboard-navigable HTML deck.
+
+This list is maintained over time: new public skills, template libraries, and slide frameworks get reviewed and added. **Submissions are welcome** (your own project or someone else's).
+
+[**Submit a skill →**](https://github.com/nickylin/awesome-html-ppt/issues/new?template=submit-skill.yml)
 
 Stars refreshed from the GitHub API on **2026-09-12**. Star rank is a discovery signal, not a quality ranking for your use case.
 
@@ -34,10 +38,19 @@ Full write-ups, screenshots, and the feature matrix live in the [Chinese README]
 ./scripts/refresh-stars.sh
 ```
 
+## Ongoing collection · submit
+
+This is not a one-shot ranking. We keep scanning public HTML PPT skills / templates / frameworks and add entries that are agent-usable and HTML-first.
+
+- Fastest: [open a submission issue](https://github.com/nickylin/awesome-html-ppt/issues/new?template=submit-skill.yml)
+- Or send a PR that updates both [README.md](README.md) and [`data/skills.json`](data/skills.json)
+- Rules: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+High stars are optional. Niche jobs (teaching, enterprise templates, in-browser edit, HTML→PPTX) count.
+
 ## Related
 
 - [ToseaAI/awesome-html-slide-skills](https://github.com/ToseaAI/awesome-html-slide-skills) — independent English gallery; this repo writes its own entries.
-- [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
 

@@ -1,0 +1,59 @@
+name: 投稿 Skill / Submit a skill
+description: 推荐一个 HTML PPT skill、模板库或幻灯片框架进本目录
+title: "[Submit] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        持续收录全网公开的 HTML 幻灯片 / PPT Agent Skills。别人的仓库、你自己写的都可以投。
+        We collect public HTML slide skills on an ongoing basis. Your repo or someone else's is fine.
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型 / Kind
+      options:
+        - Agent skill（SKILL.md）
+        - 模板库 / template library
+        - 幻灯片框架 / slide framework
+        - HTML → PPTX 工具
+        - 其他 / other
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: MIT / Apache-2.0 / AGPL-3.0 / …
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么该收录 / Why it belongs
+      description: 解决什么上台问题？和现有条目有何不同？不要求高星。
+      placeholder: 例如：咨询风可编辑 PPTX、教学留存、小红书 3:4、真演讲者窗…
+    validations:
+      required: true
+  - type: input
+    id: preview
+    attributes:
+      label: 预览图 URL（可选）
+      description: 项目自己 README / demo 里的截图。不要上传别人的图到本仓库以外的地方。
+      placeholder: https://raw.githubusercontent.com/…
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 仓库公开，且有真实 SKILL.md / 模板 / 框架代码（不是纯广告 README）
+          required: true
+        - label: HTML 是源格式，或已说明它是 Related（PPTX 优先）
+          required: true
