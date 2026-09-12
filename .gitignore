@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.env.*
+nic-skills-artifacts/
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
