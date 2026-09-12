@@ -15,6 +15,33 @@ Stars refreshed from the GitHub API on **2026-09-12**. Star rank is a discovery 
 
 **[Visual catalog](https://nickylin.github.io/awesome-html-ppt/)**
 
+## Look first
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/zarazhangrui/frontend-slides"><img src="previews/frontend-slides.png" alt="Frontend Slides"></a>
+      <p><strong><a href="https://github.com/zarazhangrui/frontend-slides">Frontend Slides</a></strong> · 29k★ — preview three looks, then generate.</p>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/op7418/guizang-ppt-skill"><img src="previews/guizang-ppt-skill.png" alt="Guizang PPT"></a>
+      <p><strong><a href="https://github.com/op7418/guizang-ppt-skill">Guizang PPT</a></strong> · 26k★ — magazine × Swiss grid. AGPL-3.0.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/lewislulu/html-ppt-skill"><img src="previews/html-ppt-skill.png" alt="HTML PPT Studio"></a>
+      <p><strong><a href="https://github.com/lewislulu/html-ppt-skill">HTML PPT Studio</a></strong> · 8.3k★ — 36 themes, real presenter window.</p>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/1weiho/open-slide"><img src="previews/open-slide.png" alt="open-slide"></a>
+      <p><strong><a href="https://github.com/1weiho/open-slide">open-slide</a></strong> · 7.6k★ — React canvas for decks you keep editing.</p>
+    </td>
+  </tr>
+</table>
+
+Full illustrated catalog (all 22 skills) is in the [Chinese README](README.md).
+
 ## Pick one
 
 | Need | Skill | Stars |
