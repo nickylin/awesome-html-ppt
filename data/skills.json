@@ -9,7 +9,10 @@
       "stars": 29179,
       "license": "MIT",
       "tier": "S",
-      "jobs": ["preview", "general"],
+      "jobs": [
+        "preview",
+        "general"
+      ],
       "output": "single-file HTML",
       "pptx": "convert",
       "presenter": "keyboard",
@@ -17,7 +20,8 @@
       "one_liner_zh": "先出 3 套视觉预览再定稿。生态起点，可转 PPTX / PDF。",
       "one_liner_en": "Show three visual previews, then generate. The skill that started the wave.",
       "install": "Copy SKILL.md + support files into ~/.claude/skills/frontend-slides/",
-      "screenshot": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/cobalt-grid-1.png"
+      "screenshot": "previews/frontend-slides.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "guizang-ppt-skill",
@@ -26,7 +30,10 @@
       "stars": 26169,
       "license": "AGPL-3.0",
       "tier": "S",
-      "jobs": ["magazine", "presenter"],
+      "jobs": [
+        "magazine",
+        "presenter"
+      ],
       "output": "single-file HTML",
       "pptx": "no",
       "presenter": "rehearsal + speaker",
@@ -34,8 +41,9 @@
       "one_liner_zh": "电子杂志 × 瑞士国际主义。线下分享气质最稳。注意 AGPL。",
       "one_liner_en": "Magazine + Swiss-grid voice. Best for talks. License is AGPL-3.0.",
       "install": "npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill",
-      "screenshot": "https://github.com/user-attachments/assets/8960e78c-69bb-4b7e-aa95-6fad64b70314",
-      "screenshot_alt": "https://github.com/user-attachments/assets/5dc316a2-401c-4e37-9123-ea081b6ae470"
+      "screenshot": "previews/guizang-ppt-skill.png",
+      "screenshot_alt": "https://github.com/user-attachments/assets/5dc316a2-401c-4e37-9123-ea081b6ae470",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "huashu-design",
@@ -44,7 +52,10 @@
       "stars": 24086,
       "license": "MIT",
       "tier": "S",
-      "jobs": ["dual", "general"],
+      "jobs": [
+        "dual",
+        "general"
+      ],
       "output": "HTML + PPTX",
       "pptx": "yes",
       "presenter": "browser",
@@ -52,7 +63,8 @@
       "one_liner_zh": "HTML 演示 + 可编辑 PPTX 双交付。还做原型 / 动效 / MP4。",
       "one_liner_en": "HTML deck plus editable PPTX. Also prototypes, motion, MP4.",
       "install": "npx skills add alchaincyf/huashu-design",
-      "screenshot": "https://github.com/alchaincyf/huashu-design/releases/download/v2.0/c2-slides-pptx.gif"
+      "screenshot": "https://github.com/alchaincyf/huashu-design/releases/download/v2.0/c2-slides-pptx.gif",
+      "screenshot_kind": "upstream-hotlink"
     },
     {
       "id": "visual-explainer",
@@ -61,7 +73,9 @@
       "stars": 9798,
       "license": "MIT",
       "tier": "S",
-      "jobs": ["technical"],
+      "jobs": [
+        "technical"
+      ],
       "output": "HTML page or deck",
       "pptx": "no",
       "presenter": "keyboard",
@@ -69,7 +83,8 @@
       "one_liner_zh": "diff / 计划审计 / 数据表 / 项目复盘。技术内容更强。",
       "one_liner_en": "Diffs, plan audits, tables, recaps. Strongest on technical content.",
       "install": "Clone into ~/.claude/skills/visual-explainer/",
-      "screenshot": "https://github.com/user-attachments/assets/55ebc81b-8732-40f6-a4b1-7c3781aa96ec"
+      "screenshot": "previews/visual-explainer.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "html-ppt-skill",
@@ -78,7 +93,10 @@
       "stars": 8333,
       "license": "MIT",
       "tier": "S",
-      "jobs": ["presenter", "themes"],
+      "jobs": [
+        "presenter",
+        "themes"
+      ],
       "output": "static HTML/CSS/JS",
       "pptx": "no",
       "presenter": "S-key true presenter",
@@ -86,7 +104,8 @@
       "one_liner_zh": "36 主题 · 31 版式 · 47 动画 · S 键演讲者窗（当前/下一页/讲稿/计时）。",
       "one_liner_en": "36 themes, 31 layouts, 47 animations, real presenter window.",
       "install": "npx skills add https://github.com/lewislulu/html-ppt-skill",
-      "screenshot": "https://raw.githubusercontent.com/lewislulu/html-ppt-skill/main/docs/readme/hero.gif"
+      "screenshot": "previews/html-ppt-skill.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "open-slide",
@@ -95,7 +114,9 @@
       "stars": 7564,
       "license": "MIT",
       "tier": "S",
-      "jobs": ["framework"],
+      "jobs": [
+        "framework"
+      ],
       "output": "React 1920×1080",
       "pptx": "no",
       "presenter": "current/next + notes + timer",
@@ -103,8 +124,9 @@
       "one_liner_zh": "Agent 写 React，框架管画布 / 热更 / 演讲者模式。适合反复改。",
       "one_liner_en": "React canvas framework. Click-to-comment, then /apply-comments.",
       "install": "npx @open-slide/cli init my-slide",
-      "screenshot": "https://github.com/user-attachments/assets/02f5e6d7-12a7-4a8e-88e7-ae8770a96584",
-      "homepage": "https://open-slide.dev"
+      "screenshot": "previews/open-slide.png",
+      "homepage": "https://open-slide.dev",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "beautiful-html-templates",
@@ -113,7 +135,9 @@
       "stars": 4545,
       "license": "MIT",
       "tier": "S",
-      "jobs": ["templates"],
+      "jobs": [
+        "templates"
+      ],
       "output": "HTML templates",
       "pptx": "no",
       "presenter": "—",
@@ -121,7 +145,8 @@
       "one_liner_zh": "32+ 套视觉真值（封面 / 中段 / 后段）。给其他 Skill 当参考，不是生成器。",
       "one_liner_en": "32+ design systems, three slides each. Visual ground truth, not a generator.",
       "install": "Point the agent at the templates/ folder",
-      "screenshot": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/soft-editorial-4.png"
+      "screenshot": "previews/beautiful-html-templates.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "ppt-agent-workflow-san",
@@ -130,7 +155,9 @@
       "stars": 638,
       "license": "unknown",
       "tier": "A",
-      "jobs": ["dual"],
+      "jobs": [
+        "dual"
+      ],
       "output": "HTML / PNG → PPTX",
       "pptx": "yes",
       "presenter": "preview",
@@ -138,7 +165,8 @@
       "one_liner_zh": "渐进交互：先出内容计划，再 HTML→PPTX。把导出当一等公民。",
       "one_liner_en": "Two-stage plan then HTML-to-PPTX. Export is first-class.",
       "install": "See repo ppt-workflow/ and html-slide-to-pptx/",
-      "screenshot": ""
+      "screenshot": "previews/ppt-agent-workflow-san.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "frontend-slides-editable",
@@ -147,7 +175,9 @@
       "stars": 497,
       "license": "MIT",
       "tier": "A",
-      "jobs": ["preview"],
+      "jobs": [
+        "preview"
+      ],
       "output": "editable HTML",
       "pptx": "PPTX→Web",
       "presenter": "keyboard",
@@ -155,7 +185,8 @@
       "one_liner_zh": "frontend-slides 可编辑 fork：拖拽、缩放、改字、重排、本地导出。",
       "one_liner_en": "Editable fork: drag, resize, reorder, local save, PPTX-to-web.",
       "install": "Same as frontend-slides, from this fork",
-      "screenshot": "https://github.com/user-attachments/assets/dc1db494-5e8c-4bbc-9c4a-d02be74c8e89"
+      "screenshot": "previews/frontend-slides-editable.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "ppt-svg-generator",
@@ -164,7 +195,9 @@
       "stars": 258,
       "license": "MIT",
       "tier": "A",
-      "jobs": ["themes"],
+      "jobs": [
+        "themes"
+      ],
       "output": "HTML / PDF",
       "pptx": "no",
       "presenter": "keyboard",
@@ -172,7 +205,8 @@
       "one_liner_zh": "Markdown → HTML/PDF。极简 / 商务咨询 / 科技暗黑 / 瑞士 / 品牌蓝。",
       "one_liner_en": "Markdown to HTML/PDF with five opinionated presets.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "https://github.com/user-attachments/assets/2454e688-d3b8-40a2-a3f8-893bbe5060ee",
+      "screenshot_kind": "upstream-hotlink"
     },
     {
       "id": "ppt-agent-skill",
@@ -181,7 +215,10 @@
       "stars": 147,
       "license": "MIT",
       "tier": "A",
-      "jobs": ["dual", "themes"],
+      "jobs": [
+        "dual",
+        "themes"
+      ],
       "output": "HTML + PPTX",
       "pptx": "yes",
       "presenter": "keyboard",
@@ -189,7 +226,8 @@
       "one_liner_zh": "26 风格 · 18 图表。按 Linear / Anthropic / Stripe 等生产 CSS 对标。",
       "one_liner_en": "26 styles, 18 charts, benchmarked against real brand CSS.",
       "install": "Clone into ~/.claude/skills/ppt-agent-skill/",
-      "screenshot": ""
+      "screenshot": "previews/ppt-agent-skill.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "future-slide-skill",
@@ -198,7 +236,9 @@
       "stars": 147,
       "license": "Apache-2.0",
       "tier": "A",
-      "jobs": ["themes"],
+      "jobs": [
+        "themes"
+      ],
       "output": "HTML or image slides",
       "pptx": "no",
       "presenter": "keyboard",
@@ -206,7 +246,8 @@
       "one_liner_zh": "同一套内容 IR，可切 HTML 现场片或图片轮播（社交媒体）。",
       "one_liner_en": "One IR, two renders: live HTML or image carousels.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/future-slide-skill.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "awesome-ppt-design-skills",
@@ -215,7 +256,9 @@
       "stars": 103,
       "license": "unknown",
       "tier": "B",
-      "jobs": ["templates"],
+      "jobs": [
+        "templates"
+      ],
       "output": "style packs",
       "pptx": "varies",
       "presenter": "—",
@@ -223,7 +266,8 @@
       "one_liner_zh": "多套风格包（和风 / clay / 科技编辑 / 奢品）。繁中一等公民。",
       "one_liner_en": "Style-pack library. Traditional Chinese decks are first-class.",
       "install": "Pick a style pack folder",
-      "screenshot": ""
+      "screenshot": "previews/awesome-ppt-design-skills.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "visual-cognition-slides",
@@ -232,7 +276,9 @@
       "stars": 83,
       "license": "MIT",
       "tier": "B",
-      "jobs": ["teaching"],
+      "jobs": [
+        "teaching"
+      ],
       "output": "HTML deck",
       "pptx": "no",
       "presenter": "keyboard",
@@ -240,7 +286,8 @@
       "one_liner_zh": "按认知科学排版。给老师 / 研究者 / 知识视频，不为商业 pitch。",
       "one_liner_en": "Instructional-design first. For teaching, not pitch decks.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/visual-cognition-slides.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "huawei-style-ppt-skill",
@@ -249,7 +296,9 @@
       "stars": 63,
       "license": "unknown",
       "tier": "B",
-      "jobs": ["enterprise"],
+      "jobs": [
+        "enterprise"
+      ],
       "output": "high-density HTML",
       "pptx": "no",
       "presenter": "keyboard",
@@ -257,7 +306,8 @@
       "one_liner_zh": "华为风高密度战略页：架构总览、数据洞察、方案对比。",
       "one_liner_en": "High-density Huawei-style strategy pages.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/huawei-style-ppt-skill.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "kingdee-ppt-skill",
@@ -266,7 +316,9 @@
       "stars": 56,
       "license": "MIT",
       "tier": "B",
-      "jobs": ["enterprise"],
+      "jobs": [
+        "enterprise"
+      ],
       "output": "PPTX or HTML",
       "pptx": "yes",
       "presenter": "keyboard",
@@ -274,7 +326,8 @@
       "one_liner_zh": "金蝶 2026 官方模板语言。Classic / Bento Motion，29 版式。",
       "one_liner_en": "Official Kingdee 2026 template language. Dual HTML/PPTX.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/kingdee-ppt-skill.jpg",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "next-slide",
@@ -283,7 +336,9 @@
       "stars": 50,
       "license": "MIT",
       "tier": "B",
-      "jobs": ["themes"],
+      "jobs": [
+        "themes"
+      ],
       "output": "zero-dep HTML",
       "pptx": "no",
       "presenter": "keyboard",
@@ -291,7 +346,8 @@
       "one_liner_zh": "26+ 完整设计系统，中英双语。暗色 / 浅色 / 编辑 / 文化。",
       "one_liner_en": "26+ full design systems, bilingual, zero dependencies.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/next-slide.jpg",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "slide-creator",
@@ -300,7 +356,9 @@
       "stars": 49,
       "license": "unknown",
       "tier": "B",
-      "jobs": ["preview"],
+      "jobs": [
+        "preview"
+      ],
       "output": "zero-dep HTML",
       "pptx": "yes",
       "presenter": "keyboard",
@@ -308,7 +366,8 @@
       "one_liner_zh": "IR 先行：--plan 出 BRIEF.json，--generate 渲染。16 项内容审查。",
       "one_liner_en": "IR-first: plan then generate. 16-checkpoint content review.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/slide-creator.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "slide-writer",
@@ -317,7 +376,9 @@
       "stars": 41,
       "license": "MIT",
       "tier": "B",
-      "jobs": ["enterprise"],
+      "jobs": [
+        "enterprise"
+      ],
       "output": "single-file HTML",
       "pptx": "no",
       "presenter": "keyboard",
@@ -325,7 +386,8 @@
       "one_liner_zh": "企业风。提到阿里 / 腾讯 / 字节等关键词会自动套品牌主题。",
       "one_liner_en": "Enterprise decks. Auto-detects Ant / Alibaba / Tencent / ByteDance themes.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/slide-writer.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "powerpoint-fancy-design",
@@ -334,7 +396,9 @@
       "stars": 33,
       "license": "unknown",
       "tier": "B",
-      "jobs": ["dual"],
+      "jobs": [
+        "dual"
+      ],
       "output": "1600×900 HTML + PNG + PPTX",
       "pptx": "yes",
       "presenter": "static",
@@ -342,7 +406,8 @@
       "one_liner_zh": "Markdown 分页 → 样式化 HTML → PNG → PPTX。中英字体配对。",
       "one_liner_en": "Paged Markdown to styled HTML, PNG, and PPTX. CJK font pairing.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/powerpoint-fancy-design.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "skills-slides",
@@ -351,7 +416,9 @@
       "stars": 32,
       "license": "unknown",
       "tier": "B",
-      "jobs": ["themes"],
+      "jobs": [
+        "themes"
+      ],
       "output": "zero-dep HTML",
       "pptx": "no",
       "presenter": "keyboard",
@@ -359,7 +426,8 @@
       "one_liner_zh": "token 设计系统 + anti-slop 清单。50 美学 × 20 色板 × 30+ 效果。",
       "one_liner_en": "Token system plus anti-slop checklist before delivery.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "previews/skills-slides.png",
+      "screenshot_kind": "vendored"
     },
     {
       "id": "sense-deck-skill",
@@ -368,7 +436,10 @@
       "stars": 23,
       "license": "unknown",
       "tier": "B",
-      "jobs": ["presenter", "themes"],
+      "jobs": [
+        "presenter",
+        "themes"
+      ],
       "output": "static HTML/CSS/JS",
       "pptx": "helpers",
       "presenter": "yes + editable",
@@ -376,7 +447,8 @@
       "one_liner_zh": "完整管线：IR、主题、整套模板、演讲者、可编辑、手势。",
       "one_liner_en": "Full pipeline: IR, themes, presenter, edit mode, gestures.",
       "install": "Clone into agent skills directory",
-      "screenshot": ""
+      "screenshot": "https://github.com/user-attachments/assets/863060de-f22d-4e00-b669-3e38e1602bc6",
+      "screenshot_kind": "upstream-hotlink"
     }
   ],
   "related": [

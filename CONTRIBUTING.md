@@ -10,7 +10,7 @@ Open an issue or PR with:
 2. License (MIT / Apache / AGPL / etc.)
 3. One-line: what it outputs (single-file HTML, React framework, PPTX, …)
 4. Why it is not a duplicate of an existing entry
-5. Optional: a **preview image URL from the original repo** (README / `raw.githubusercontent.com` / GitHub user-attachments). Do not re-upload other people's screenshots into this repo.
+5. A preview: prefer dropping a 16:9 still into `previews/<id>.png` (copied from the project's own README/demo). Hot-linking GitHub `user-attachments` often breaks on Pages.
 
 ## Rules
 

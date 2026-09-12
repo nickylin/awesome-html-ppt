@@ -239,8 +239,11 @@
           ? `<span class="tag agpl">AGPL-3.0</span>`
           : `<span class="tag">${s.license}</span>`)
         : "";
-      const img = s.screenshot
-        ? `<img src="${s.screenshot}" alt="${s.name} screenshot" loading="lazy" onerror="this.parentNode.querySelector('.ph').hidden=false;this.remove()" />`
+      const src = s.screenshot
+        ? (s.screenshot.startsWith("http") ? s.screenshot : `./${s.screenshot}`)
+        : "";
+      const img = src
+        ? `<img src="${src}" alt="${s.name} screenshot" loading="lazy" onerror="this.parentNode.querySelector('.ph').hidden=false;this.remove()" />`
         : "";
       return `<a href="${s.url}" class="card-link" style="text-decoration:none;color:inherit">
         <article class="card">
